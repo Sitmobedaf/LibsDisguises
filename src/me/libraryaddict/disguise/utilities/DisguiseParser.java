@@ -32,7 +32,7 @@ import me.libraryaddict.disguise.disguisetypes.MiscDisguise;
 import me.libraryaddict.disguise.disguisetypes.MobDisguise;
 import me.libraryaddict.disguise.disguisetypes.PlayerDisguise;
 import me.libraryaddict.disguise.disguisetypes.RabbitType;
-import sun.reflect.Reflection;
+//import sun.reflect.Reflection;
 
 public class DisguiseParser {
     public static class DisguiseParseException extends Exception {

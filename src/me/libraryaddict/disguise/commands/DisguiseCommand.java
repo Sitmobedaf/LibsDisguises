@@ -159,7 +159,7 @@ public class DisguiseCommand extends DisguiseBaseCommand implements TabCompleter
     protected void sendCommandUsage(CommandSender sender,
             HashMap<DisguisePerm, HashMap<ArrayList<String>, Boolean>> map) {
         ArrayList<String> allowedDisguises = getAllowedDisguises(map);
-        sender.sendMessage(LibsMsg.DISG_HELP1.get());
+        //sender.sendMessage(LibsMsg.DISG_HELP1.get());
         sender.sendMessage(LibsMsg.CAN_USE_DISGS
                 .get(ChatColor.GREEN + StringUtils.join(allowedDisguises, ChatColor.RED + ", " + ChatColor.GREEN)));
 

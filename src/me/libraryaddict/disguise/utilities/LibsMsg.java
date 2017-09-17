@@ -7,7 +7,7 @@ import org.bukkit.ChatColor;
  */
 public enum LibsMsg {
     BLOWN_DISGUISE(ChatColor.RED + "Your disguise was blown!"),
-    CAN_USE_DISGS(ChatColor.DARK_GREEN + "You can use the disguises: %s"),
+    CAN_USE_DISGS(ChatColor.DARK_GREEN + "Список доступных маскировок: %s"),
     CANNOT_FIND_PLAYER(ChatColor.RED + "Cannot find the player '%s'"),
     CLICK_TIMER(ChatColor.RED + "Right click a entity in the next %s seconds to grab the disguise reference!"),
     CLONE_HELP1(
@@ -38,11 +38,11 @@ public enum LibsMsg {
     DISG_ENT_HELP5(ChatColor.DARK_GREEN + "/disguiseentity <Dropped_Item/Falling_Block> <Id> <Durability>"),
     DISG_HELP1(ChatColor.DARK_GREEN + "Choose a disguise to become the disguise!"),
     DISG_HELP2(ChatColor.DARK_GREEN + "/disguise player <Name>"),
-    DISG_HELP3(ChatColor.DARK_GREEN + "/disguise <DisguiseType> <Baby>"),
+    DISG_HELP3(ChatColor.YELLOW + "Использование: /d <маскировка>"),
     DISG_HELP4(ChatColor.DARK_GREEN + "/disguise <Dropped_Item/Falling_Block> <Id> <Durability>"),
     DISG_PLAYER_AS_DISG(ChatColor.RED + "Successfully disguised %s as a %s!"),
     DISG_PLAYER_AS_DISG_FAIL(ChatColor.RED + "Failed to disguise %s as a %s!"),
-    DISGUISED(ChatColor.RED + "Now disguised as a %s"),
+    DISGUISED(ChatColor.GREEN + "Вы успешно замаскировались под %s"),
     DISRADIUS(ChatColor.RED + "Successfully disguised %s entities!"),
     DISRADIUS_FAIL(ChatColor.RED + "Couldn't find any entities to disguise!"),
     DMODENT_HELP1(ChatColor.DARK_GREEN + "Choose the options for a disguise then right click a entity to modify it!"),
@@ -115,16 +115,16 @@ public enum LibsMsg {
     MADE_REF(ChatColor.RED + "Constructed a %s disguise! Your reference is %s"),
     MADE_REF_EXAMPLE(ChatColor.RED + "Example usage: /disguise %s"),
     NO_CONSOLE(ChatColor.RED + "You may not use this command from the console!"),
-    NO_PERM(ChatColor.RED + "You are forbidden to use this command."),
-    NO_PERM_DISGUISE(ChatColor.RED + "You do not have permission for that disguise!"),
+    NO_PERM(ChatColor.RED + "Вы не можете использовать данную команду."),
+    NO_PERM_DISGUISE(ChatColor.RED + "Вы не можете использовать данную маскировку."),
     NO_PERMS_USE_OPTIONS(
             ChatColor.RED + "Ignored %s options you do not have permission to use. Add 'show' to view unusable options."),
-    NOT_DISGUISED(ChatColor.RED + "You are not disguised!"),
+    NOT_DISGUISED(ChatColor.RED + "Вы не замаскированы."),
     NOT_NUMBER(ChatColor.RED + "Error! %s is not a number"),
     PARSE_CANT_DISG_UNKNOWN(ChatColor.RED + "Error! You cannot disguise as " + ChatColor.GREEN + "Unknown!"),
     PARSE_CANT_LOAD(ChatColor.RED + "Error! This disguise couldn't be loaded!"),
     PARSE_DISG_NO_EXIST(
-            ChatColor.RED + "Error! The disguise " + ChatColor.GREEN + "%s" + ChatColor.RED + " doesn't exist!"),
+            ChatColor.RED + "Маскировка " + ChatColor.GREEN + "%s" + ChatColor.RED + " не найдена."),
     PARSE_EXPECTED_RECEIVED(
             ChatColor.RED + "Expected " + ChatColor.GREEN + "%s" + ChatColor.RED + ", received " + ChatColor.GREEN + "%s" + ChatColor.RED + " instead for " + ChatColor.GREEN + "%s"),
     PARSE_NO_ARGS("No arguments defined"),
@@ -142,7 +142,7 @@ public enum LibsMsg {
             ChatColor.RED + "Failed to store the reference, too many cloned disguises. Please raise the maximum cloned disguises, or lower the time they last"),
     RELOADED_CONFIG(ChatColor.GREEN + "[LibsDisguises] Reloaded config."),
     UND_ENTITY(ChatColor.RED + "Right click a disguised entity to undisguise them!"),
-    UNDISG(ChatColor.RED + "You are no longer disguised"),
+    UNDISG(ChatColor.GREEN + "Маскировка успешно снята."),
     UNDISG_PLAYER(ChatColor.RED + "%s is no longer disguised"),
     UNDISG_PLAYER_FAIL(ChatColor.RED + "%s not disguised!"),
     UNDISG_PLAYER_HELP(ChatColor.RED + "/undisguiseplayer <Name>"),

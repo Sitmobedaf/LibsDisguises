@@ -129,3 +129,50 @@ permissions:
       description: See the /disguisemodifyradius command in tab-completion
     libsdisguises.seecmd.disguisemodifyentity:
       description: See the /disguisemodifyentity command in tab-completion
+
+    libsdisguises.disguise:
+      default: false
+      children:
+         libsdisguises.disguise.Bat: true
+         libsdisguises.disguise.Blaze: true
+         libsdisguises.disguise.Cave_Spider: true
+         libsdisguises.disguise.Chicken: true
+         libsdisguises.disguise.Cow: true
+         libsdisguises.disguise.Creeper: true
+         libsdisguises.disguise.Donkey: true
+         libsdisguises.disguise.Enderman: true
+         libsdisguises.disguise.Endermite: true
+         libsdisguises.disguise.Evoker: true
+         libsdisguises.disguise.Guardian: true
+         libsdisguises.disguise.Horse: true
+         libsdisguises.disguise.Husk: true
+         libsdisguises.disguise.Iron_Golem: true
+         libsdisguises.disguise.Llama: true
+         libsdisguises.disguise.Magma_Cube: true
+         libsdisguises.disguise.Mule: true
+         libsdisguises.disguise.Mushroom_Cow: true
+         libsdisguises.disguise.Ocelot: true
+         libsdisguises.disguise.Parrot: true
+         libsdisguises.disguise.Pig: true
+         libsdisguises.disguise.Pig_Zombie: true
+         libsdisguises.disguise.Polar_Bear: true
+         libsdisguises.disguise.Rabbit: true
+         libsdisguises.disguise.Sheep: true
+         libsdisguises.disguise.Shulker: true
+         libsdisguises.disguise.Silverfish: true
+         libsdisguises.disguise.Skeleton: true
+         libsdisguises.disguise.Skeleton_Horse: true
+         libsdisguises.disguise.Slime: true
+         libsdisguises.disguise.Snowman: true
+         libsdisguises.disguise.Spider: true
+         libsdisguises.disguise.Squid: true
+         libsdisguises.disguise.Stray: true
+         libsdisguises.disguise.Vex: true
+         libsdisguises.disguise.Villager: true
+         libsdisguises.disguise.Vindicator: true
+         libsdisguises.disguise.Witch: true
+         libsdisguises.disguise.Wither_Skeleton: true
+         libsdisguises.disguise.Wolf: true
+         libsdisguises.disguise.Zombie: true
+         libsdisguises.disguise.Zombie_Horse: true
+         libsdisguises.disguise.Zombie_Villager: true
